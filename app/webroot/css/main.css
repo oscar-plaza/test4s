@@ -1,0 +1,51 @@
+
+.mapdiv {
+	height: 500px;
+}
+
+.divBlockContent {
+  opacity: 0.3;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background: url("../img/loading.gif") no-repeat scroll center center silver;
+}
+
+.list-group-item.hover {
+	text-decoration: none;
+	background-color: #F5F5F5;
+}
+
+.cat-list {
+	clear: both;
+}
+
+.cat-list h4 {
+	float: left;
+}
+
+.cat-list ul, .photo-list ul {
+	padding: 0;
+	list-style: none;
+}
+
+.cat-list ul li {
+	float: left;
+	margin: 0 5px;
+}
+
+.photo-list ul li{
+	float: left;
+}
+
+/*
+@media (max-width: 767px) {
+.modal-body { 
+    max-height: 350px; 
+    padding: 15px; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+ }
+}
+*/
